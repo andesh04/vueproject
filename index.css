@@ -5,7 +5,7 @@ html, body {
 }
 
 div#input button{
-    background:lightblue;
+    background:orange;
     width:max-content;
     height:25px;
     border-radius: 8px;
