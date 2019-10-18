@@ -19,3 +19,6 @@ div#input button:hover{
     transition: 0.4s;
     cursor: pointer;
 }
+div#time p span{
+    border: 1px solid red;
+}
