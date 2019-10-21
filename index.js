@@ -43,4 +43,26 @@ var vue_det = new Vue({
         this.timestamp = watchtime;
     }
 }
-});
+})
+
+var example1 = new Vue({
+  el: '#example-1',
+  data: {
+    items: [
+      { message: 'Foo' },
+      { message: 'Bar' }
+    ]
+  }
+})
+
+
+Vue.component('button-counter' ,{
+  data: function () {
+    return {
+      count: 0
+    }
+  },
+  template: '<button v-on:click ="count++">Clicked for {{count}}</button>'
+})
+
+new Vue({ el: '#components-demo'})

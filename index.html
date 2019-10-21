@@ -25,6 +25,21 @@
            <p> The time is <span>{{ timestamp }}</span> </p>
             
         </div>
+
+        <!-- example for list and index -->
+        <ul id="example-1">
+            <li v-for="(item , index ) in items">
+              {{index}} - {{ item.message }}
+            </li>
+          </ul>
+
+          <div id="components-demo">
+            <button-counter></button-counter>
+            <button-counter></button-counter>
+            <button-counter></button-counter>
+          </div>
+          
+
         <script src="index.js"></script>
     </body>
 </html>

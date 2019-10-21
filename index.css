@@ -22,3 +22,17 @@ div#input button:hover{
 div#time p span{
     border: 1px solid red;
 }
+/* body > div {
+    margin:auto;
+    width:max-content;
+} */
+#components-demo {
+    display: inline-grid;
+}
+#components-demo button{
+    width:100px;
+    height:40px;
+    border-radius:8px;
+    border:none;
+    margin-top:20px;
+}
