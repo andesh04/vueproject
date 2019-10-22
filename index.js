@@ -50,7 +50,8 @@ var example1 = new Vue({
   data: {
     items: [
       { message: 'Foo' },
-      { message: 'Bar' }
+      { message: 'Bar' },
+      {message: 'Cook'}
     ]
   }
 })
