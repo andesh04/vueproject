@@ -66,4 +66,20 @@ Vue.component('button-counter' ,{
   template: '<button v-on:click ="count++">Clicked for {{count}}</button>'
 })
 
+Vue.component("blog-post",{
+  props: ['title'],
+  template: '<H3>{{title}}</h3>'
+})
 new Vue({ el: '#components-demo'})
+
+new Vue({
+  el: '#two-test',
+  data: {
+    posts: [
+      { id: 1, title: 'My journey with Vue' },
+      { id: 2, title: 'Blogging with Vue' },
+      { id: 3, title: 'Why Vue is so fun' },
+      {id: 4, title: 'Whore fucked in the ass'}
+    ]
+  }
+})

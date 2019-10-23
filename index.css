@@ -36,3 +36,13 @@ div#time p span{
     border:none;
     margin-top:20px;
 }
+#two-test {
+    display: flex;
+    justify-content: space-between;
+    width:80%;
+    margin:auto;
+}
+#two-test h3{
+    border:1px solid grey;
+    width:max-content;
+}

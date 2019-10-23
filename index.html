@@ -33,12 +33,19 @@
             </li>
           </ul>
 
-          <div id="components-demo">
+          <div id="components-demo" class="all-one">
             <button-counter></button-counter>
             <button-counter></button-counter>
             <button-counter></button-counter>
+            <blog-post title='Bijay'></blog-post>
           </div>
-          
+          <div id="two-test" class="all-one"> 
+              <blog-post 
+              v-for="post in posts"
+              v-bind:key="post.id"
+              v-bind:title="post.title"
+            ></blog-post>
+          </div>
 
         <script src="index.js"></script>
     </body>
